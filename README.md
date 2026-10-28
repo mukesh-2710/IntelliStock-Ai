@@ -43,6 +43,8 @@ The script prints `REPRODUCIBLE` when both generated runs match.
 
 ## Run the interfaces
 
+Generate data first using the Quick start command. The dashboard reads `output/` by default; if the output files are missing, it now displays the command needed to create them. To use a different generated output directory, enter it in the dashboard sidebar or set `INTELLISTOCK_OUT`.
+
 ```bash
 streamlit run app/dashboard.py
 ```

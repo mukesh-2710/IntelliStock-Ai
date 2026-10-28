@@ -1,14 +1,32 @@
 """Streamlit dashboard.  Run: streamlit run app/dashboard.py   (reads ./output from `python -m src.pipeline`)"""
 import json, os, sys
+from pathlib import Path
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import numpy as np, pandas as pd, plotly.express as px, streamlit as st
 from src.replenishment import safety_stock, order_qty
 
 OUT = st.sidebar.text_input("Output folder", os.environ.get("INTELLISTOCK_OUT", "output"))
 @st.cache_data
-def load(n): return pd.read_csv(f"{OUT}/{n}.csv")
-summ = json.load(open(f"{OUT}/reports/validation_summary.json"))
-rec, fc = load("purchase_recommendation"), load("forecast")
+def load(folder, name): return pd.read_csv(Path(folder) / f"{name}.csv")
+
+output_dir = Path(OUT).expanduser()
+required_files = (
+    "reports/validation_summary.json",
+    "purchase_recommendation.csv",
+    "forecast.csv",
+    "reports/exceptions_detected.csv",
+)
+missing = [str(output_dir / name) for name in required_files if not (output_dir / name).is_file()]
+if missing:
+    st.error("Dashboard data is missing from the selected output folder.")
+    st.write("Generate the pipeline output first, or choose an existing output folder in the sidebar.")
+    st.code("python -m src.pipeline --scale starter --out output", language="powershell")
+    st.caption("Missing files: " + ", ".join(missing))
+    st.stop()
+
+with (output_dir / "reports" / "validation_summary.json").open(encoding="utf-8") as summary_file:
+    summ = json.load(summary_file)
+rec, fc = load(str(output_dir), "purchase_recommendation"), load(str(output_dir), "forecast")
 store = st.sidebar.selectbox("Store", ["All"] + sorted(rec.store_id.unique())); sku = st.sidebar.selectbox("SKU", ["All"] + sorted(rec.sku_id.unique()))
 flt = lambda d: d[((d.store_id == store) | (store == "All")) & ((d.sku_id == sku) | (sku == "All"))]
 t1, t2, t3, t4, t5 = st.tabs(["Overview", "Forecasting", "Replenishment", "Exceptions", "What-if"])
@@ -26,7 +44,7 @@ with t3:
     if pick: st.info(r.set_index("recommendation_id").loc[pick, "explanation"])
 with t4:
     d = summ["detection"]; st.metric("Precision", f"{d['overall']['precision']:.1%}"); st.metric("Recall", f"{d['overall']['recall']:.1%}")
-    st.dataframe(pd.DataFrame(d["per_issue"])); st.dataframe(pd.read_csv(f"{OUT}/reports/exceptions_detected.csv").head(500))
+    st.dataframe(pd.DataFrame(d["per_issue"])); st.dataframe(load(str(output_dir / "reports"), "exceptions_detected").head(500))
 with t5:
     a, b_, c_ = st.columns(3); mu = a.number_input("Daily demand", 0.0, 1e4, 20.0); L = b_.number_input("Lead time (d)", 0.1, 90.0, 5.0); ssx = c_.number_input("Safety stock override (0=formula)", 0.0, 1e5, 30.0)
     sd = a.number_input("Demand std", 0.0, 1e3, 5.0); sl = b_.number_input("Lead-time std", 0.0, 30.0, 1.0); ip = c_.number_input("Inventory position", 0, 100000, 40)
