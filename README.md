@@ -68,3 +68,5 @@ Honest reading: WAPE ≈ 0.44–0.50 is expected at SKU-store-day granularity wi
 - Forecast covers one month (2026-01) at version 1; lead-time distributions per SKU use observed receipts (supplier-level fallback, then 7±2 days).
 - Replenishment uses one supplier per SKU per date (primary first, then cheapest eligible); single-echelon, no budget or multi-SKU capacity allocation.
 - Baseline orders are fully received (partial receipts, cancellations not modelled). Not implemented: auth/RBAC, idempotent API writes.
+#   I n t e l l i S t o c k - A i  
+ 
