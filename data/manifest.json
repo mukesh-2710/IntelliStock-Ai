@@ -1,0 +1,106 @@
+{
+ "project": "IntelliStock AI",
+ "seed": 20261022,
+ "scale": "starter",
+ "params": {
+  "n_skus": 60,
+  "n_stores": 8,
+  "assortment": 0.5,
+  "n_inject": 10
+ },
+ "generator_command": "python -m src.pipeline --scale starter --out data/sample --seed 20261022",
+ "source": "100% synthetic (numpy PCG64, fixed seed); no external/public data, no personal data",
+ "license": "MIT (code); synthetic data free to use",
+ "env": {
+  "python": "3.12.3",
+  "numpy": "2.4.4",
+  "pandas": "3.0.2"
+ },
+ "files": [
+  {
+   "file": "forecast.csv",
+   "rows": 278,
+   "sha256": "44fad4450dee6f3d9adaaa6edff294dd9e4ae9d52e84e0cc5556fd7fd0c5e33b"
+  },
+  {
+   "file": "ground_truth/generation_params.json",
+   "rows": 1,
+   "sha256": "9b39fa8d892fd8c382ded5732587e238b05759f0273144ad6c9aa1f16622c90e"
+  },
+  {
+   "file": "ground_truth/ground_truth.csv",
+   "rows": 50,
+   "sha256": "74df3f8fecee04bf544adb06b167bc5f15a5532745cc70abdbe84676529eed0b"
+  },
+  {
+   "file": "ground_truth/true_demand_on_stockout_days.csv",
+   "rows": 3812,
+   "sha256": "b295d1514e51656b5f55f2e4a0d248b4b63f012e3fbb6621c5c08603c9026066"
+  },
+  {
+   "file": "inventory_snapshot.csv",
+   "rows": 88594,
+   "sha256": "8d6d7c3268fbec4783e28e643f7f9b850679182dbf6b9fcf7493303b3c0526a1"
+  },
+  {
+   "file": "lead_time_observation.csv",
+   "rows": 5902,
+   "sha256": "d497bb94666bb2c7ada09075a75f5968d5cacfc819c1ad9faaec2f9fb395adb0"
+  },
+  {
+   "file": "purchase_recommendation.csv",
+   "rows": 278,
+   "sha256": "fb797319f180d3de1a4bf5f7c822208e7335d4ae906f4a219075517cdf40d40c"
+  },
+  {
+   "file": "recommendation_event.csv",
+   "rows": 556,
+   "sha256": "ee6207f6b5a758096356c84ce748c10923ee82b9bb75e82a58a3ea2753b925a6"
+  },
+  {
+   "file": "reorder_policy.csv",
+   "rows": 278,
+   "sha256": "e22c36f4d39a2df0e440219786b266b30f405d4c1cc1225551c73983b47c831a"
+  },
+  {
+   "file": "reports/detection_metrics.csv",
+   "rows": 5,
+   "sha256": "46a6cdb5480f673e6b28166cfd10c1e38f39fe89a0d3352e0337c1e004e898c5"
+  },
+  {
+   "file": "reports/exceptions_detected.csv",
+   "rows": 50,
+   "sha256": "59b803773fb0a2325e86cca46bd7d5c7944dbacfa30e4a3ec4b395cf91f6555d"
+  },
+  {
+   "file": "reports/forecast_backtest_metrics.csv",
+   "rows": 6,
+   "sha256": "7395dd0268117a09e0bc35303d836455fd38b1d92bd324164d20e7cfad521662"
+  },
+  {
+   "file": "sales_history.csv",
+   "rows": 88594,
+   "sha256": "871d34c328da11ccab133089411e3120b9e89afc1d4a838167ff8fdef4a1ac97"
+  },
+  {
+   "file": "sku.csv",
+   "rows": 60,
+   "sha256": "16bf7c7c137136d68ad950fa1850b8f0c713b88ecc7d04420d16d42db123f8b4"
+  },
+  {
+   "file": "store.csv",
+   "rows": 8,
+   "sha256": "8001c9561e39505bee6629265719dc6181d5a38de47223a1a3392d84ced6e0dc"
+  },
+  {
+   "file": "supplier.csv",
+   "rows": 5,
+   "sha256": "384c0063e8ca57711bac450eb03258f03b12c144d9d61b5a3a6be910e45e47f1"
+  },
+  {
+   "file": "supplier_sku.csv",
+   "rows": 77,
+   "sha256": "81cf82584b274ef45f6a087e88cdbc3e62a3ac24749cf471ba6ac94e560d3d54"
+  }
+ ]
+}

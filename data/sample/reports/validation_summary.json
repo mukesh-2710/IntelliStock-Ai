@@ -1,0 +1,915 @@
+{
+ "scale": "starter",
+ "params": {
+  "n_skus": 60,
+  "n_stores": 8,
+  "assortment": 0.5,
+  "n_inject": 10
+ },
+ "seed": 20261022,
+ "daily_rows_per_table": 88594,
+ "baseline_validation": {
+  "total_checks": 108,
+  "passed": 108,
+  "failed": []
+ },
+ "baseline_checks": [
+  {
+   "check": "required_not_null",
+   "table": "sku",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "pk_unique",
+   "table": "sku",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "id_format:sku_id",
+   "table": "sku",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "enum:category",
+   "table": "sku",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "enum:lifecycle_status",
+   "table": "sku",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "required_not_null",
+   "table": "store",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "pk_unique",
+   "table": "store",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "id_format:store_id",
+   "table": "store",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "enum:region",
+   "table": "store",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "enum:status",
+   "table": "store",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "required_not_null",
+   "table": "supplier",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "pk_unique",
+   "table": "supplier",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "id_format:supplier_id",
+   "table": "supplier",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "enum:status",
+   "table": "supplier",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "required_not_null",
+   "table": "supplier_sku",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "pk_unique",
+   "table": "supplier_sku",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "id_format:sku_id",
+   "table": "supplier_sku",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "id_format:supplier_id",
+   "table": "supplier_sku",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "id_format:supplier_sku_id",
+   "table": "supplier_sku",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "enum:status",
+   "table": "supplier_sku",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "enum:is_primary",
+   "table": "supplier_sku",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "required_not_null",
+   "table": "lead_time_observation",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "pk_unique",
+   "table": "lead_time_observation",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "id_format:sku_id",
+   "table": "lead_time_observation",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "id_format:store_id",
+   "table": "lead_time_observation",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "id_format:supplier_id",
+   "table": "lead_time_observation",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "id_format:observation_id",
+   "table": "lead_time_observation",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "required_not_null",
+   "table": "reorder_policy",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "pk_unique",
+   "table": "reorder_policy",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "id_format:sku_id",
+   "table": "reorder_policy",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "id_format:store_id",
+   "table": "reorder_policy",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "id_format:policy_id",
+   "table": "reorder_policy",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "enum:status",
+   "table": "reorder_policy",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "required_not_null",
+   "table": "forecast",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "pk_unique",
+   "table": "forecast",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "id_format:sku_id",
+   "table": "forecast",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "id_format:store_id",
+   "table": "forecast",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "id_format:forecast_id",
+   "table": "forecast",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "enum:model_name",
+   "table": "forecast",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "enum:confidence",
+   "table": "forecast",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "required_not_null",
+   "table": "purchase_recommendation",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "pk_unique",
+   "table": "purchase_recommendation",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "id_format:sku_id",
+   "table": "purchase_recommendation",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "id_format:store_id",
+   "table": "purchase_recommendation",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "id_format:supplier_id",
+   "table": "purchase_recommendation",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "id_format:recommendation_id",
+   "table": "purchase_recommendation",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "id_format:policy_id",
+   "table": "purchase_recommendation",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "id_format:forecast_id",
+   "table": "purchase_recommendation",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "enum:decision",
+   "table": "purchase_recommendation",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "enum:stockout_risk",
+   "table": "purchase_recommendation",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "enum:forecast_confidence",
+   "table": "purchase_recommendation",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "enum:status",
+   "table": "purchase_recommendation",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "required_not_null",
+   "table": "recommendation_event",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "pk_unique",
+   "table": "recommendation_event",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "id_format:recommendation_id",
+   "table": "recommendation_event",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "id_format:event_id",
+   "table": "recommendation_event",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "fk:supplier_id->supplier.supplier_id",
+   "table": "supplier_sku",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "fk:sku_id->sku.sku_id",
+   "table": "supplier_sku",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "fk:supplier_id->supplier.supplier_id",
+   "table": "lead_time_observation",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "fk:sku_id->sku.sku_id",
+   "table": "lead_time_observation",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "fk:store_id->store.store_id",
+   "table": "lead_time_observation",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "fk:store_id->store.store_id",
+   "table": "reorder_policy",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "fk:sku_id->sku.sku_id",
+   "table": "reorder_policy",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "fk:store_id->store.store_id",
+   "table": "forecast",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "fk:sku_id->sku.sku_id",
+   "table": "forecast",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "fk:forecast_id->forecast.forecast_id",
+   "table": "purchase_recommendation",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "fk:policy_id->reorder_policy.policy_id",
+   "table": "purchase_recommendation",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "fk:store_id->store.store_id",
+   "table": "purchase_recommendation",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "fk:sku_id->sku.sku_id",
+   "table": "purchase_recommendation",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "fk:supplier_id->supplier.supplier_id",
+   "table": "purchase_recommendation",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "fk:recommendation_id->purchase_recommendation.recommendation_id",
+   "table": "recommendation_event",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "date_order:received>=order",
+   "table": "lead_time_observation",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "lead_time_positive_and_consistent",
+   "table": "lead_time_observation",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "lifecycle:discontinue_date_iff_DISCONTINUED",
+   "table": "sku",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "date_order:launch<=discontinue",
+   "table": "sku",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "date_order:effective_from<=to",
+   "table": "supplier_sku",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "no_overlapping_effective_dates",
+   "table": "supplier_sku",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "pack_moq_positive",
+   "table": "supplier_sku",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "single_active_policy_per_pair",
+   "table": "reorder_policy",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "derived:store_capacity=sum(policy)",
+   "table": "store",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "no_future_sales_in_forecast",
+   "table": "forecast",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "forecast_arithmetic",
+   "table": "forecast",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "forecast_interval_order",
+   "table": "forecast",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "forecast_nonnegative",
+   "table": "forecast",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "forecast_unique_store_sku_month_version",
+   "table": "forecast",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "forecast_pair_in_sku_store_matrix",
+   "table": "forecast",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "qty_multiple_of_pack_and_>=MOQ",
+   "table": "purchase_recommendation",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "qty_within_capacity",
+   "table": "purchase_recommendation",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "no_discontinued_sku_recommended",
+   "table": "purchase_recommendation",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "cost_reconciliation",
+   "table": "purchase_recommendation",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "inventory_position=on_hand+on_order",
+   "table": "purchase_recommendation",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "reorder_point=mu*L+SS",
+   "table": "purchase_recommendation",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "forecast_lineage",
+   "table": "purchase_recommendation",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "lifecycle_transitions_valid",
+   "table": "recommendation_event",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "final_event_status=recommendation_status",
+   "table": "recommendation_event",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "pk_unique",
+   "table": "sales_history",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "pk_unique",
+   "table": "inventory_snapshot",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "fk_store_sku",
+   "table": "sales_history+inventory_snapshot",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "closing=opening+received-sold",
+   "table": "inventory_snapshot",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "no_negative_inventory_or_sales",
+   "table": "inventory_snapshot",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "sales<=available_stock",
+   "table": "sales_history",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "no_sales_after_discontinuation",
+   "table": "sales_history",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "no_sales_before_launch_or_store_open",
+   "table": "sales_history",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "enum:flags",
+   "table": "sales_history",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "id_format",
+   "table": "sales_history+inventory_snapshot",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "sales_units=inventory_units",
+   "table": "sales_history",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  },
+  {
+   "check": "inventory_receipts=lead_time_observation_qty",
+   "table": "inventory_snapshot",
+   "status": "PASS",
+   "violations": 0,
+   "detail": "137586 vs 137586"
+  },
+  {
+   "check": "sku_store_matrix_unique",
+   "table": "reorder_policy",
+   "status": "PASS",
+   "violations": 0,
+   "detail": ""
+  }
+ ],
+ "detection": {
+  "overall": {
+   "precision": 1.0,
+   "recall": 1.0,
+   "TP": 50,
+   "FP": 0,
+   "FN": 0
+  },
+  "per_issue": [
+   {
+    "issue_type": "STOCKOUT_MISTAKEN_AS_ZERO_DEMAND",
+    "injected": 10,
+    "detected": 10,
+    "TP": 10,
+    "FP": 0,
+    "FN": 0,
+    "precision": 1.0,
+    "recall": 1.0
+   },
+   {
+    "issue_type": "PACK_SIZE_OR_MOQ_VIOLATION",
+    "injected": 10,
+    "detected": 10,
+    "TP": 10,
+    "FP": 0,
+    "FN": 0,
+    "precision": 1.0,
+    "recall": 1.0
+   },
+   {
+    "issue_type": "DISCONTINUED_SKU_RECOMMENDED",
+    "injected": 10,
+    "detected": 10,
+    "TP": 10,
+    "FP": 0,
+    "FN": 0,
+    "precision": 1.0,
+    "recall": 1.0
+   },
+   {
+    "issue_type": "NEGATIVE_LEAD_TIME",
+    "injected": 10,
+    "detected": 10,
+    "TP": 10,
+    "FP": 0,
+    "FN": 0,
+    "precision": 1.0,
+    "recall": 1.0
+   },
+   {
+    "issue_type": "FORECAST_USES_FUTURE_SALES",
+    "injected": 10,
+    "detected": 10,
+    "TP": 10,
+    "FP": 0,
+    "FN": 0,
+    "precision": 1.0,
+    "recall": 1.0
+   }
+  ]
+ },
+ "forecast": {
+  "holdout_days": 28,
+  "interval_90_coverage_on_holdout": 0.8989,
+  "metrics": [
+   {
+    "model": "moving_avg",
+    "MAE": 0.9467,
+    "RMSE": 1.5823,
+    "WAPE": 0.4993,
+    "bias": -0.1334,
+    "pairs_evaluated": 267,
+    "holdout_days": 28
+   },
+   {
+    "model": "exp_smooth",
+    "MAE": 0.9459,
+    "RMSE": 1.5754,
+    "WAPE": 0.4989,
+    "bias": -0.1238,
+    "pairs_evaluated": 267,
+    "holdout_days": 28
+   },
+   {
+    "model": "croston_sba",
+    "MAE": 0.9701,
+    "RMSE": 1.5921,
+    "WAPE": 0.5116,
+    "bias": -0.0838,
+    "pairs_evaluated": 267,
+    "holdout_days": 28
+   },
+   {
+    "model": "seasonal_naive",
+    "MAE": 0.9728,
+    "RMSE": 1.638,
+    "WAPE": 0.5131,
+    "bias": -0.1346,
+    "pairs_evaluated": 267,
+    "holdout_days": 28
+   },
+   {
+    "model": "selected_per_pair",
+    "MAE": 0.9486,
+    "RMSE": 1.5936,
+    "WAPE": 0.5003,
+    "bias": -0.1327,
+    "pairs_evaluated": 267,
+    "holdout_days": 28
+   },
+   {
+    "model": "moving_avg_censoring_ignored",
+    "MAE": 0.9607,
+    "RMSE": 1.6315,
+    "WAPE": 0.5066,
+    "bias": -0.1543,
+    "pairs_evaluated": 267,
+    "holdout_days": 28
+   }
+  ]
+ },
+ "recommendations": {
+  "total": 278,
+  "decisions": {
+   "NO_ORDER": 198,
+   "BLOCKED_STORE_CLOSED": 34,
+   "INFEASIBLE_CAPACITY": 15,
+   "REORDER": 11,
+   "BLOCKED_DISCONTINUED": 10,
+   "BLOCKED_NO_SUPPLIER": 6,
+   "REORDER_CAPPED_BY_CAPACITY": 4
+  },
+  "compliance_pack_moq_capacity": 1.0,
+  "units": 715,
+  "cost": 7574.47
+ },
+ "forecast_confidence": {
+  "HIGH": 240,
+  "MEDIUM": 27,
+  "LOW": 11
+ }
+}

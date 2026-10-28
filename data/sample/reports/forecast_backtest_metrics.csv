@@ -1,0 +1,7 @@
+model,MAE,RMSE,WAPE,bias,pairs_evaluated,holdout_days
+moving_avg,0.9467,1.5823,0.49926,-0.13342,267,28
+exp_smooth,0.94593,1.57542,0.49886,-0.12382,267,28
+croston_sba,0.97008,1.59208,0.51159,-0.08378,267,28
+seasonal_naive,0.97285,1.63796,0.51305,-0.13459,267,28
+selected_per_pair,0.9486,1.59356,0.50027,-0.13268,267,28
+moving_avg_censoring_ignored,0.96071,1.63153,0.50665,-0.15429,267,28

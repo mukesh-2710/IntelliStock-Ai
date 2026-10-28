@@ -1,0 +1,51 @@
+issue_id,entity,record_id,issue_type,severity,rule_violated,original_value,injected_value
+GT-000001,sales_history,SALE-STORE-000004-SKU-000032-2025-12-02,STOCKOUT_MISTAKEN_AS_ZERO_DEMAND,HIGH,stockout_flag must be 1 when no stock available,stockout_flag=1,stockout_flag=0; true_demand=1
+GT-000002,sales_history,SALE-STORE-000004-SKU-000032-2025-12-24,STOCKOUT_MISTAKEN_AS_ZERO_DEMAND,HIGH,stockout_flag must be 1 when no stock available,stockout_flag=1,stockout_flag=0; true_demand=1
+GT-000003,sales_history,SALE-STORE-000004-SKU-000052-2025-04-22,STOCKOUT_MISTAKEN_AS_ZERO_DEMAND,HIGH,stockout_flag must be 1 when no stock available,stockout_flag=1,stockout_flag=0; true_demand=1
+GT-000004,sales_history,SALE-STORE-000005-SKU-000056-2025-05-05,STOCKOUT_MISTAKEN_AS_ZERO_DEMAND,HIGH,stockout_flag must be 1 when no stock available,stockout_flag=1,stockout_flag=0; true_demand=4
+GT-000005,sales_history,SALE-STORE-000005-SKU-000056-2025-09-08,STOCKOUT_MISTAKEN_AS_ZERO_DEMAND,HIGH,stockout_flag must be 1 when no stock available,stockout_flag=1,stockout_flag=0; true_demand=1
+GT-000006,sales_history,SALE-STORE-000008-SKU-000010-2025-09-17,STOCKOUT_MISTAKEN_AS_ZERO_DEMAND,HIGH,stockout_flag must be 1 when no stock available,stockout_flag=1,stockout_flag=0; true_demand=2
+GT-000007,sales_history,SALE-STORE-000008-SKU-000016-2025-04-30,STOCKOUT_MISTAKEN_AS_ZERO_DEMAND,HIGH,stockout_flag must be 1 when no stock available,stockout_flag=1,stockout_flag=0; true_demand=1
+GT-000008,sales_history,SALE-STORE-000008-SKU-000043-2025-04-24,STOCKOUT_MISTAKEN_AS_ZERO_DEMAND,HIGH,stockout_flag must be 1 when no stock available,stockout_flag=1,stockout_flag=0; true_demand=3
+GT-000009,sales_history,SALE-STORE-000008-SKU-000043-2025-07-09,STOCKOUT_MISTAKEN_AS_ZERO_DEMAND,HIGH,stockout_flag must be 1 when no stock available,stockout_flag=1,stockout_flag=0; true_demand=2
+GT-000010,sales_history,SALE-STORE-000008-SKU-000043-2025-08-05,STOCKOUT_MISTAKEN_AS_ZERO_DEMAND,HIGH,stockout_flag must be 1 when no stock available,stockout_flag=1,stockout_flag=0; true_demand=1
+GT-000011,purchase_recommendation,PO-2026-000025,PACK_SIZE_OR_MOQ_VIOLATION,HIGH,qty must be multiple of pack_size and >= MOQ,qty=36,qty=37; pack=6
+GT-000012,purchase_recommendation,PO-2026-000045,PACK_SIZE_OR_MOQ_VIOLATION,HIGH,qty must be multiple of pack_size and >= MOQ,qty=78,qty=79; pack=6
+GT-000013,purchase_recommendation,PO-2026-000087,PACK_SIZE_OR_MOQ_VIOLATION,HIGH,qty must be multiple of pack_size and >= MOQ,qty=36,qty=37; pack=6
+GT-000014,purchase_recommendation,PO-2026-000093,PACK_SIZE_OR_MOQ_VIOLATION,HIGH,qty must be multiple of pack_size and >= MOQ,qty=60,qty=61; pack=6
+GT-000015,purchase_recommendation,PO-2026-000108,PACK_SIZE_OR_MOQ_VIOLATION,HIGH,qty must be multiple of pack_size and >= MOQ,qty=30,qty=31; pack=2
+GT-000016,purchase_recommendation,PO-2026-000208,PACK_SIZE_OR_MOQ_VIOLATION,HIGH,qty must be multiple of pack_size and >= MOQ,qty=60,qty=61; pack=12
+GT-000017,purchase_recommendation,PO-2026-000209,PACK_SIZE_OR_MOQ_VIOLATION,HIGH,qty must be multiple of pack_size and >= MOQ,qty=32,qty=33; pack=2
+GT-000018,purchase_recommendation,PO-2026-000237,PACK_SIZE_OR_MOQ_VIOLATION,HIGH,qty must be multiple of pack_size and >= MOQ,qty=36,qty=37; pack=6
+GT-000019,purchase_recommendation,PO-2026-000243,PACK_SIZE_OR_MOQ_VIOLATION,HIGH,qty must be multiple of pack_size and >= MOQ,qty=120,qty=121; pack=24
+GT-000020,purchase_recommendation,PO-2026-000277,PACK_SIZE_OR_MOQ_VIOLATION,HIGH,qty must be multiple of pack_size and >= MOQ,qty=36,qty=37; pack=6
+GT-000021,purchase_recommendation,PO-2026-000051,DISCONTINUED_SKU_RECOMMENDED,CRITICAL,DISCONTINUED SKU must never be recommended,"decision=BLOCKED_DISCONTINUED,qty=0","decision=REORDER,qty=8"
+GT-000022,purchase_recommendation,PO-2026-000079,DISCONTINUED_SKU_RECOMMENDED,CRITICAL,DISCONTINUED SKU must never be recommended,"decision=BLOCKED_DISCONTINUED,qty=0","decision=REORDER,qty=8"
+GT-000023,purchase_recommendation,PO-2026-000083,DISCONTINUED_SKU_RECOMMENDED,CRITICAL,DISCONTINUED SKU must never be recommended,"decision=BLOCKED_DISCONTINUED,qty=0","decision=REORDER,qty=8"
+GT-000024,purchase_recommendation,PO-2026-000116,DISCONTINUED_SKU_RECOMMENDED,CRITICAL,DISCONTINUED SKU must never be recommended,"decision=BLOCKED_DISCONTINUED,qty=0","decision=REORDER,qty=8"
+GT-000025,purchase_recommendation,PO-2026-000151,DISCONTINUED_SKU_RECOMMENDED,CRITICAL,DISCONTINUED SKU must never be recommended,"decision=BLOCKED_DISCONTINUED,qty=0","decision=REORDER,qty=8"
+GT-000026,purchase_recommendation,PO-2026-000183,DISCONTINUED_SKU_RECOMMENDED,CRITICAL,DISCONTINUED SKU must never be recommended,"decision=BLOCKED_DISCONTINUED,qty=0","decision=REORDER,qty=8"
+GT-000027,purchase_recommendation,PO-2026-000187,DISCONTINUED_SKU_RECOMMENDED,CRITICAL,DISCONTINUED SKU must never be recommended,"decision=BLOCKED_DISCONTINUED,qty=0","decision=REORDER,qty=8"
+GT-000028,purchase_recommendation,PO-2026-000229,DISCONTINUED_SKU_RECOMMENDED,CRITICAL,DISCONTINUED SKU must never be recommended,"decision=BLOCKED_DISCONTINUED,qty=0","decision=REORDER,qty=8"
+GT-000029,purchase_recommendation,PO-2026-000262,DISCONTINUED_SKU_RECOMMENDED,CRITICAL,DISCONTINUED SKU must never be recommended,"decision=BLOCKED_DISCONTINUED,qty=0","decision=REORDER,qty=8"
+GT-000030,purchase_recommendation,PO-2026-000269,DISCONTINUED_SKU_RECOMMENDED,CRITICAL,DISCONTINUED SKU must never be recommended,"decision=BLOCKED_DISCONTINUED,qty=0","decision=REORDER,qty=8"
+GT-000031,lead_time_observation,LTO-000217,NEGATIVE_LEAD_TIME,MEDIUM,received_date >= order_date; lead_time_days >= 1,lead_time_days=3,lead_time_days=-1
+GT-000032,lead_time_observation,LTO-000249,NEGATIVE_LEAD_TIME,MEDIUM,received_date >= order_date; lead_time_days >= 1,lead_time_days=15,lead_time_days=-5
+GT-000033,lead_time_observation,LTO-000512,NEGATIVE_LEAD_TIME,MEDIUM,received_date >= order_date; lead_time_days >= 1,lead_time_days=7,lead_time_days=-1
+GT-000034,lead_time_observation,LTO-000959,NEGATIVE_LEAD_TIME,MEDIUM,received_date >= order_date; lead_time_days >= 1,lead_time_days=3,lead_time_days=-2
+GT-000035,lead_time_observation,LTO-001458,NEGATIVE_LEAD_TIME,MEDIUM,received_date >= order_date; lead_time_days >= 1,lead_time_days=6,lead_time_days=-1
+GT-000036,lead_time_observation,LTO-002166,NEGATIVE_LEAD_TIME,MEDIUM,received_date >= order_date; lead_time_days >= 1,lead_time_days=10,lead_time_days=-3
+GT-000037,lead_time_observation,LTO-002661,NEGATIVE_LEAD_TIME,MEDIUM,received_date >= order_date; lead_time_days >= 1,lead_time_days=10,lead_time_days=-1
+GT-000038,lead_time_observation,LTO-003402,NEGATIVE_LEAD_TIME,MEDIUM,received_date >= order_date; lead_time_days >= 1,lead_time_days=18,lead_time_days=-3
+GT-000039,lead_time_observation,LTO-003711,NEGATIVE_LEAD_TIME,MEDIUM,received_date >= order_date; lead_time_days >= 1,lead_time_days=3,lead_time_days=-1
+GT-000040,lead_time_observation,LTO-004097,NEGATIVE_LEAD_TIME,MEDIUM,received_date >= order_date; lead_time_days >= 1,lead_time_days=3,lead_time_days=-2
+GT-000041,forecast,FC-STORE-000002-SKU-000011-2026-01,FORECAST_USES_FUTURE_SALES,CRITICAL,data_cutoff_date < forecast_start_date,cutoff=2025-12-31,cutoff=2026-02-15
+GT-000042,forecast,FC-STORE-000002-SKU-000035-2026-01,FORECAST_USES_FUTURE_SALES,CRITICAL,data_cutoff_date < forecast_start_date,cutoff=2025-12-31,cutoff=2026-02-15
+GT-000043,forecast,FC-STORE-000003-SKU-000009-2026-01,FORECAST_USES_FUTURE_SALES,CRITICAL,data_cutoff_date < forecast_start_date,cutoff=2025-12-31,cutoff=2026-02-15
+GT-000044,forecast,FC-STORE-000005-SKU-000023-2026-01,FORECAST_USES_FUTURE_SALES,CRITICAL,data_cutoff_date < forecast_start_date,cutoff=2025-12-31,cutoff=2026-02-15
+GT-000045,forecast,FC-STORE-000006-SKU-000004-2026-01,FORECAST_USES_FUTURE_SALES,CRITICAL,data_cutoff_date < forecast_start_date,cutoff=2025-12-31,cutoff=2026-02-15
+GT-000046,forecast,FC-STORE-000006-SKU-000014-2026-01,FORECAST_USES_FUTURE_SALES,CRITICAL,data_cutoff_date < forecast_start_date,cutoff=2025-12-31,cutoff=2026-02-15
+GT-000047,forecast,FC-STORE-000007-SKU-000007-2026-01,FORECAST_USES_FUTURE_SALES,CRITICAL,data_cutoff_date < forecast_start_date,cutoff=2025-12-31,cutoff=2026-02-15
+GT-000048,forecast,FC-STORE-000007-SKU-000020-2026-01,FORECAST_USES_FUTURE_SALES,CRITICAL,data_cutoff_date < forecast_start_date,cutoff=2025-12-31,cutoff=2026-02-15
+GT-000049,forecast,FC-STORE-000007-SKU-000022-2026-01,FORECAST_USES_FUTURE_SALES,CRITICAL,data_cutoff_date < forecast_start_date,cutoff=2025-12-31,cutoff=2026-02-15
+GT-000050,forecast,FC-STORE-000008-SKU-000030-2026-01,FORECAST_USES_FUTURE_SALES,CRITICAL,data_cutoff_date < forecast_start_date,cutoff=2025-12-31,cutoff=2026-02-15

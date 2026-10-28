@@ -1,0 +1,557 @@
+event_id,recommendation_id,previous_status,new_status,actor,reason,event_ts
+EVT-2026-000001,PO-2026-000001,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000002,PO-2026-000001,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000003,PO-2026-000002,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000004,PO-2026-000002,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000005,PO-2026-000003,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000006,PO-2026-000003,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000007,PO-2026-000004,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000008,PO-2026-000004,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000009,PO-2026-000005,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000010,PO-2026-000005,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000011,PO-2026-000006,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000012,PO-2026-000006,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000013,PO-2026-000007,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000014,PO-2026-000007,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000015,PO-2026-000008,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000016,PO-2026-000008,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000017,PO-2026-000009,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000018,PO-2026-000009,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000019,PO-2026-000010,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000020,PO-2026-000010,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000021,PO-2026-000011,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000022,PO-2026-000011,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000023,PO-2026-000012,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000024,PO-2026-000012,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000025,PO-2026-000013,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000026,PO-2026-000013,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000027,PO-2026-000014,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000028,PO-2026-000014,GENERATED,BLOCKED,system,no purchase action: BLOCKED,2026-01-01T00:00:00Z
+EVT-2026-000029,PO-2026-000015,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000030,PO-2026-000015,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000031,PO-2026-000016,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000032,PO-2026-000016,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000033,PO-2026-000017,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000034,PO-2026-000017,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000035,PO-2026-000018,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000036,PO-2026-000018,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000037,PO-2026-000019,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000038,PO-2026-000019,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000039,PO-2026-000020,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000040,PO-2026-000020,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000041,PO-2026-000021,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000042,PO-2026-000021,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000043,PO-2026-000022,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000044,PO-2026-000022,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000045,PO-2026-000023,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000046,PO-2026-000023,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000047,PO-2026-000024,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000048,PO-2026-000024,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000049,PO-2026-000025,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000050,PO-2026-000025,GENERATED,VALIDATED,system,constraints validated,2026-01-01T00:00:00Z
+EVT-2026-000051,PO-2026-000026,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000052,PO-2026-000026,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000053,PO-2026-000027,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000054,PO-2026-000027,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000055,PO-2026-000028,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000056,PO-2026-000028,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000057,PO-2026-000029,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000058,PO-2026-000029,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000059,PO-2026-000030,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000060,PO-2026-000030,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000061,PO-2026-000031,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000062,PO-2026-000031,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000063,PO-2026-000032,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000064,PO-2026-000032,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000065,PO-2026-000033,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000066,PO-2026-000033,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000067,PO-2026-000034,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000068,PO-2026-000034,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000069,PO-2026-000035,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000070,PO-2026-000035,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000071,PO-2026-000036,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000072,PO-2026-000036,GENERATED,VALIDATED,system,constraints validated,2026-01-01T00:00:00Z
+EVT-2026-000073,PO-2026-000037,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000074,PO-2026-000037,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000075,PO-2026-000038,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000076,PO-2026-000038,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000077,PO-2026-000039,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000078,PO-2026-000039,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000079,PO-2026-000040,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000080,PO-2026-000040,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000081,PO-2026-000041,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000082,PO-2026-000041,GENERATED,BLOCKED,system,no purchase action: BLOCKED,2026-01-01T00:00:00Z
+EVT-2026-000083,PO-2026-000042,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000084,PO-2026-000042,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000085,PO-2026-000043,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000086,PO-2026-000043,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000087,PO-2026-000044,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000088,PO-2026-000044,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000089,PO-2026-000045,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000090,PO-2026-000045,GENERATED,VALIDATED,system,constraints validated,2026-01-01T00:00:00Z
+EVT-2026-000091,PO-2026-000046,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000092,PO-2026-000046,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000093,PO-2026-000047,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000094,PO-2026-000047,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000095,PO-2026-000048,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000096,PO-2026-000048,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000097,PO-2026-000049,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000098,PO-2026-000049,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000099,PO-2026-000050,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000100,PO-2026-000050,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000101,PO-2026-000051,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000102,PO-2026-000051,GENERATED,VALIDATED,system,constraints validated,2026-01-01T00:00:00Z
+EVT-2026-000103,PO-2026-000052,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000104,PO-2026-000052,GENERATED,BLOCKED,system,no purchase action: BLOCKED,2026-01-01T00:00:00Z
+EVT-2026-000105,PO-2026-000053,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000106,PO-2026-000053,GENERATED,BLOCKED,system,no purchase action: BLOCKED,2026-01-01T00:00:00Z
+EVT-2026-000107,PO-2026-000054,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000108,PO-2026-000054,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000109,PO-2026-000055,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000110,PO-2026-000055,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000111,PO-2026-000056,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000112,PO-2026-000056,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000113,PO-2026-000057,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000114,PO-2026-000057,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000115,PO-2026-000058,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000116,PO-2026-000058,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000117,PO-2026-000059,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000118,PO-2026-000059,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000119,PO-2026-000060,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000120,PO-2026-000060,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000121,PO-2026-000061,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000122,PO-2026-000061,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000123,PO-2026-000062,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000124,PO-2026-000062,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000125,PO-2026-000063,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000126,PO-2026-000063,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000127,PO-2026-000064,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000128,PO-2026-000064,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000129,PO-2026-000065,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000130,PO-2026-000065,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000131,PO-2026-000066,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000132,PO-2026-000066,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000133,PO-2026-000067,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000134,PO-2026-000067,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000135,PO-2026-000068,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000136,PO-2026-000068,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000137,PO-2026-000069,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000138,PO-2026-000069,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000139,PO-2026-000070,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000140,PO-2026-000070,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000141,PO-2026-000071,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000142,PO-2026-000071,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000143,PO-2026-000072,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000144,PO-2026-000072,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000145,PO-2026-000073,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000146,PO-2026-000073,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000147,PO-2026-000074,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000148,PO-2026-000074,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000149,PO-2026-000075,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000150,PO-2026-000075,GENERATED,BLOCKED,system,no purchase action: BLOCKED,2026-01-01T00:00:00Z
+EVT-2026-000151,PO-2026-000076,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000152,PO-2026-000076,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000153,PO-2026-000077,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000154,PO-2026-000077,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000155,PO-2026-000078,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000156,PO-2026-000078,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000157,PO-2026-000079,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000158,PO-2026-000079,GENERATED,VALIDATED,system,constraints validated,2026-01-01T00:00:00Z
+EVT-2026-000159,PO-2026-000080,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000160,PO-2026-000080,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000161,PO-2026-000081,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000162,PO-2026-000081,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000163,PO-2026-000082,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000164,PO-2026-000082,GENERATED,BLOCKED,system,no purchase action: BLOCKED,2026-01-01T00:00:00Z
+EVT-2026-000165,PO-2026-000083,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000166,PO-2026-000083,GENERATED,VALIDATED,system,constraints validated,2026-01-01T00:00:00Z
+EVT-2026-000167,PO-2026-000084,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000168,PO-2026-000084,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000169,PO-2026-000085,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000170,PO-2026-000085,GENERATED,BLOCKED,system,no purchase action: BLOCKED,2026-01-01T00:00:00Z
+EVT-2026-000171,PO-2026-000086,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000172,PO-2026-000086,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000173,PO-2026-000087,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000174,PO-2026-000087,GENERATED,VALIDATED,system,constraints validated,2026-01-01T00:00:00Z
+EVT-2026-000175,PO-2026-000088,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000176,PO-2026-000088,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000177,PO-2026-000089,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000178,PO-2026-000089,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000179,PO-2026-000090,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000180,PO-2026-000090,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000181,PO-2026-000091,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000182,PO-2026-000091,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000183,PO-2026-000092,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000184,PO-2026-000092,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000185,PO-2026-000093,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000186,PO-2026-000093,GENERATED,VALIDATED,system,constraints validated,2026-01-01T00:00:00Z
+EVT-2026-000187,PO-2026-000094,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000188,PO-2026-000094,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000189,PO-2026-000095,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000190,PO-2026-000095,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000191,PO-2026-000096,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000192,PO-2026-000096,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000193,PO-2026-000097,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000194,PO-2026-000097,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000195,PO-2026-000098,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000196,PO-2026-000098,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000197,PO-2026-000099,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000198,PO-2026-000099,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000199,PO-2026-000100,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000200,PO-2026-000100,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000201,PO-2026-000101,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000202,PO-2026-000101,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000203,PO-2026-000102,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000204,PO-2026-000102,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000205,PO-2026-000103,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000206,PO-2026-000103,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000207,PO-2026-000104,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000208,PO-2026-000104,GENERATED,BLOCKED,system,no purchase action: BLOCKED,2026-01-01T00:00:00Z
+EVT-2026-000209,PO-2026-000105,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000210,PO-2026-000105,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000211,PO-2026-000106,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000212,PO-2026-000106,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000213,PO-2026-000107,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000214,PO-2026-000107,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000215,PO-2026-000108,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000216,PO-2026-000108,GENERATED,VALIDATED,system,constraints validated,2026-01-01T00:00:00Z
+EVT-2026-000217,PO-2026-000109,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000218,PO-2026-000109,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000219,PO-2026-000110,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000220,PO-2026-000110,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000221,PO-2026-000111,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000222,PO-2026-000111,GENERATED,VALIDATED,system,constraints validated,2026-01-01T00:00:00Z
+EVT-2026-000223,PO-2026-000112,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000224,PO-2026-000112,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000225,PO-2026-000113,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000226,PO-2026-000113,GENERATED,BLOCKED,system,no purchase action: BLOCKED,2026-01-01T00:00:00Z
+EVT-2026-000227,PO-2026-000114,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000228,PO-2026-000114,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000229,PO-2026-000115,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000230,PO-2026-000115,GENERATED,BLOCKED,system,no purchase action: BLOCKED,2026-01-01T00:00:00Z
+EVT-2026-000231,PO-2026-000116,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000232,PO-2026-000116,GENERATED,VALIDATED,system,constraints validated,2026-01-01T00:00:00Z
+EVT-2026-000233,PO-2026-000117,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000234,PO-2026-000117,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000235,PO-2026-000118,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000236,PO-2026-000118,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000237,PO-2026-000119,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000238,PO-2026-000119,GENERATED,BLOCKED,system,no purchase action: BLOCKED,2026-01-01T00:00:00Z
+EVT-2026-000239,PO-2026-000120,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000240,PO-2026-000120,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000241,PO-2026-000121,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000242,PO-2026-000121,GENERATED,BLOCKED,system,no purchase action: BLOCKED,2026-01-01T00:00:00Z
+EVT-2026-000243,PO-2026-000122,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000244,PO-2026-000122,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000245,PO-2026-000123,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000246,PO-2026-000123,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000247,PO-2026-000124,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000248,PO-2026-000124,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000249,PO-2026-000125,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000250,PO-2026-000125,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000251,PO-2026-000126,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000252,PO-2026-000126,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000253,PO-2026-000127,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000254,PO-2026-000127,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000255,PO-2026-000128,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000256,PO-2026-000128,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000257,PO-2026-000129,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000258,PO-2026-000129,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000259,PO-2026-000130,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000260,PO-2026-000130,GENERATED,BLOCKED,system,no purchase action: BLOCKED,2026-01-01T00:00:00Z
+EVT-2026-000261,PO-2026-000131,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000262,PO-2026-000131,GENERATED,BLOCKED,system,no purchase action: BLOCKED,2026-01-01T00:00:00Z
+EVT-2026-000263,PO-2026-000132,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000264,PO-2026-000132,GENERATED,BLOCKED,system,no purchase action: BLOCKED,2026-01-01T00:00:00Z
+EVT-2026-000265,PO-2026-000133,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000266,PO-2026-000133,GENERATED,BLOCKED,system,no purchase action: BLOCKED,2026-01-01T00:00:00Z
+EVT-2026-000267,PO-2026-000134,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000268,PO-2026-000134,GENERATED,BLOCKED,system,no purchase action: BLOCKED,2026-01-01T00:00:00Z
+EVT-2026-000269,PO-2026-000135,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000270,PO-2026-000135,GENERATED,BLOCKED,system,no purchase action: BLOCKED,2026-01-01T00:00:00Z
+EVT-2026-000271,PO-2026-000136,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000272,PO-2026-000136,GENERATED,BLOCKED,system,no purchase action: BLOCKED,2026-01-01T00:00:00Z
+EVT-2026-000273,PO-2026-000137,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000274,PO-2026-000137,GENERATED,BLOCKED,system,no purchase action: BLOCKED,2026-01-01T00:00:00Z
+EVT-2026-000275,PO-2026-000138,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000276,PO-2026-000138,GENERATED,BLOCKED,system,no purchase action: BLOCKED,2026-01-01T00:00:00Z
+EVT-2026-000277,PO-2026-000139,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000278,PO-2026-000139,GENERATED,BLOCKED,system,no purchase action: BLOCKED,2026-01-01T00:00:00Z
+EVT-2026-000279,PO-2026-000140,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000280,PO-2026-000140,GENERATED,BLOCKED,system,no purchase action: BLOCKED,2026-01-01T00:00:00Z
+EVT-2026-000281,PO-2026-000141,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000282,PO-2026-000141,GENERATED,BLOCKED,system,no purchase action: BLOCKED,2026-01-01T00:00:00Z
+EVT-2026-000283,PO-2026-000142,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000284,PO-2026-000142,GENERATED,BLOCKED,system,no purchase action: BLOCKED,2026-01-01T00:00:00Z
+EVT-2026-000285,PO-2026-000143,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000286,PO-2026-000143,GENERATED,BLOCKED,system,no purchase action: BLOCKED,2026-01-01T00:00:00Z
+EVT-2026-000287,PO-2026-000144,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000288,PO-2026-000144,GENERATED,BLOCKED,system,no purchase action: BLOCKED,2026-01-01T00:00:00Z
+EVT-2026-000289,PO-2026-000145,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000290,PO-2026-000145,GENERATED,BLOCKED,system,no purchase action: BLOCKED,2026-01-01T00:00:00Z
+EVT-2026-000291,PO-2026-000146,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000292,PO-2026-000146,GENERATED,BLOCKED,system,no purchase action: BLOCKED,2026-01-01T00:00:00Z
+EVT-2026-000293,PO-2026-000147,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000294,PO-2026-000147,GENERATED,BLOCKED,system,no purchase action: BLOCKED,2026-01-01T00:00:00Z
+EVT-2026-000295,PO-2026-000148,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000296,PO-2026-000148,GENERATED,BLOCKED,system,no purchase action: BLOCKED,2026-01-01T00:00:00Z
+EVT-2026-000297,PO-2026-000149,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000298,PO-2026-000149,GENERATED,BLOCKED,system,no purchase action: BLOCKED,2026-01-01T00:00:00Z
+EVT-2026-000299,PO-2026-000150,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000300,PO-2026-000150,GENERATED,BLOCKED,system,no purchase action: BLOCKED,2026-01-01T00:00:00Z
+EVT-2026-000301,PO-2026-000151,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000302,PO-2026-000151,GENERATED,VALIDATED,system,constraints validated,2026-01-01T00:00:00Z
+EVT-2026-000303,PO-2026-000152,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000304,PO-2026-000152,GENERATED,BLOCKED,system,no purchase action: BLOCKED,2026-01-01T00:00:00Z
+EVT-2026-000305,PO-2026-000153,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000306,PO-2026-000153,GENERATED,BLOCKED,system,no purchase action: BLOCKED,2026-01-01T00:00:00Z
+EVT-2026-000307,PO-2026-000154,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000308,PO-2026-000154,GENERATED,BLOCKED,system,no purchase action: BLOCKED,2026-01-01T00:00:00Z
+EVT-2026-000309,PO-2026-000155,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000310,PO-2026-000155,GENERATED,BLOCKED,system,no purchase action: BLOCKED,2026-01-01T00:00:00Z
+EVT-2026-000311,PO-2026-000156,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000312,PO-2026-000156,GENERATED,BLOCKED,system,no purchase action: BLOCKED,2026-01-01T00:00:00Z
+EVT-2026-000313,PO-2026-000157,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000314,PO-2026-000157,GENERATED,BLOCKED,system,no purchase action: BLOCKED,2026-01-01T00:00:00Z
+EVT-2026-000315,PO-2026-000158,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000316,PO-2026-000158,GENERATED,BLOCKED,system,no purchase action: BLOCKED,2026-01-01T00:00:00Z
+EVT-2026-000317,PO-2026-000159,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000318,PO-2026-000159,GENERATED,BLOCKED,system,no purchase action: BLOCKED,2026-01-01T00:00:00Z
+EVT-2026-000319,PO-2026-000160,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000320,PO-2026-000160,GENERATED,BLOCKED,system,no purchase action: BLOCKED,2026-01-01T00:00:00Z
+EVT-2026-000321,PO-2026-000161,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000322,PO-2026-000161,GENERATED,BLOCKED,system,no purchase action: BLOCKED,2026-01-01T00:00:00Z
+EVT-2026-000323,PO-2026-000162,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000324,PO-2026-000162,GENERATED,BLOCKED,system,no purchase action: BLOCKED,2026-01-01T00:00:00Z
+EVT-2026-000325,PO-2026-000163,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000326,PO-2026-000163,GENERATED,BLOCKED,system,no purchase action: BLOCKED,2026-01-01T00:00:00Z
+EVT-2026-000327,PO-2026-000164,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000328,PO-2026-000164,GENERATED,BLOCKED,system,no purchase action: BLOCKED,2026-01-01T00:00:00Z
+EVT-2026-000329,PO-2026-000165,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000330,PO-2026-000165,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000331,PO-2026-000166,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000332,PO-2026-000166,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000333,PO-2026-000167,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000334,PO-2026-000167,GENERATED,VALIDATED,system,constraints validated,2026-01-01T00:00:00Z
+EVT-2026-000335,PO-2026-000168,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000336,PO-2026-000168,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000337,PO-2026-000169,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000338,PO-2026-000169,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000339,PO-2026-000170,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000340,PO-2026-000170,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000341,PO-2026-000171,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000342,PO-2026-000171,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000343,PO-2026-000172,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000344,PO-2026-000172,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000345,PO-2026-000173,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000346,PO-2026-000173,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000347,PO-2026-000174,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000348,PO-2026-000174,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000349,PO-2026-000175,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000350,PO-2026-000175,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000351,PO-2026-000176,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000352,PO-2026-000176,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000353,PO-2026-000177,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000354,PO-2026-000177,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000355,PO-2026-000178,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000356,PO-2026-000178,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000357,PO-2026-000179,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000358,PO-2026-000179,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000359,PO-2026-000180,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000360,PO-2026-000180,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000361,PO-2026-000181,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000362,PO-2026-000181,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000363,PO-2026-000182,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000364,PO-2026-000182,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000365,PO-2026-000183,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000366,PO-2026-000183,GENERATED,VALIDATED,system,constraints validated,2026-01-01T00:00:00Z
+EVT-2026-000367,PO-2026-000184,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000368,PO-2026-000184,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000369,PO-2026-000185,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000370,PO-2026-000185,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000371,PO-2026-000186,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000372,PO-2026-000186,GENERATED,VALIDATED,system,constraints validated,2026-01-01T00:00:00Z
+EVT-2026-000373,PO-2026-000187,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000374,PO-2026-000187,GENERATED,VALIDATED,system,constraints validated,2026-01-01T00:00:00Z
+EVT-2026-000375,PO-2026-000188,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000376,PO-2026-000188,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000377,PO-2026-000189,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000378,PO-2026-000189,GENERATED,BLOCKED,system,no purchase action: BLOCKED,2026-01-01T00:00:00Z
+EVT-2026-000379,PO-2026-000190,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000380,PO-2026-000190,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000381,PO-2026-000191,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000382,PO-2026-000191,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000383,PO-2026-000192,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000384,PO-2026-000192,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000385,PO-2026-000193,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000386,PO-2026-000193,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000387,PO-2026-000194,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000388,PO-2026-000194,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000389,PO-2026-000195,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000390,PO-2026-000195,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000391,PO-2026-000196,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000392,PO-2026-000196,GENERATED,VALIDATED,system,constraints validated,2026-01-01T00:00:00Z
+EVT-2026-000393,PO-2026-000197,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000394,PO-2026-000197,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000395,PO-2026-000198,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000396,PO-2026-000198,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000397,PO-2026-000199,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000398,PO-2026-000199,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000399,PO-2026-000200,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000400,PO-2026-000200,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000401,PO-2026-000201,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000402,PO-2026-000201,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000403,PO-2026-000202,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000404,PO-2026-000202,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000405,PO-2026-000203,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000406,PO-2026-000203,GENERATED,BLOCKED,system,no purchase action: BLOCKED,2026-01-01T00:00:00Z
+EVT-2026-000407,PO-2026-000204,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000408,PO-2026-000204,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000409,PO-2026-000205,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000410,PO-2026-000205,GENERATED,BLOCKED,system,no purchase action: BLOCKED,2026-01-01T00:00:00Z
+EVT-2026-000411,PO-2026-000206,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000412,PO-2026-000206,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000413,PO-2026-000207,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000414,PO-2026-000207,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000415,PO-2026-000208,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000416,PO-2026-000208,GENERATED,VALIDATED,system,constraints validated,2026-01-01T00:00:00Z
+EVT-2026-000417,PO-2026-000209,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000418,PO-2026-000209,GENERATED,VALIDATED,system,constraints validated,2026-01-01T00:00:00Z
+EVT-2026-000419,PO-2026-000210,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000420,PO-2026-000210,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000421,PO-2026-000211,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000422,PO-2026-000211,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000423,PO-2026-000212,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000424,PO-2026-000212,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000425,PO-2026-000213,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000426,PO-2026-000213,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000427,PO-2026-000214,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000428,PO-2026-000214,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000429,PO-2026-000215,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000430,PO-2026-000215,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000431,PO-2026-000216,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000432,PO-2026-000216,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000433,PO-2026-000217,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000434,PO-2026-000217,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000435,PO-2026-000218,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000436,PO-2026-000218,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000437,PO-2026-000219,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000438,PO-2026-000219,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000439,PO-2026-000220,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000440,PO-2026-000220,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000441,PO-2026-000221,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000442,PO-2026-000221,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000443,PO-2026-000222,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000444,PO-2026-000222,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000445,PO-2026-000223,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000446,PO-2026-000223,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000447,PO-2026-000224,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000448,PO-2026-000224,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000449,PO-2026-000225,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000450,PO-2026-000225,GENERATED,BLOCKED,system,no purchase action: BLOCKED,2026-01-01T00:00:00Z
+EVT-2026-000451,PO-2026-000226,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000452,PO-2026-000226,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000453,PO-2026-000227,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000454,PO-2026-000227,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000455,PO-2026-000228,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000456,PO-2026-000228,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000457,PO-2026-000229,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000458,PO-2026-000229,GENERATED,VALIDATED,system,constraints validated,2026-01-01T00:00:00Z
+EVT-2026-000459,PO-2026-000230,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000460,PO-2026-000230,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000461,PO-2026-000231,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000462,PO-2026-000231,GENERATED,BLOCKED,system,no purchase action: BLOCKED,2026-01-01T00:00:00Z
+EVT-2026-000463,PO-2026-000232,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000464,PO-2026-000232,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000465,PO-2026-000233,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000466,PO-2026-000233,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000467,PO-2026-000234,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000468,PO-2026-000234,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000469,PO-2026-000235,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000470,PO-2026-000235,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000471,PO-2026-000236,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000472,PO-2026-000236,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000473,PO-2026-000237,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000474,PO-2026-000237,GENERATED,VALIDATED,system,constraints validated,2026-01-01T00:00:00Z
+EVT-2026-000475,PO-2026-000238,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000476,PO-2026-000238,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000477,PO-2026-000239,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000478,PO-2026-000239,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000479,PO-2026-000240,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000480,PO-2026-000240,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000481,PO-2026-000241,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000482,PO-2026-000241,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000483,PO-2026-000242,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000484,PO-2026-000242,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000485,PO-2026-000243,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000486,PO-2026-000243,GENERATED,VALIDATED,system,constraints validated,2026-01-01T00:00:00Z
+EVT-2026-000487,PO-2026-000244,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000488,PO-2026-000244,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000489,PO-2026-000245,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000490,PO-2026-000245,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000491,PO-2026-000246,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000492,PO-2026-000246,GENERATED,BLOCKED,system,no purchase action: BLOCKED,2026-01-01T00:00:00Z
+EVT-2026-000493,PO-2026-000247,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000494,PO-2026-000247,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000495,PO-2026-000248,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000496,PO-2026-000248,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000497,PO-2026-000249,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000498,PO-2026-000249,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000499,PO-2026-000250,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000500,PO-2026-000250,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000501,PO-2026-000251,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000502,PO-2026-000251,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000503,PO-2026-000252,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000504,PO-2026-000252,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000505,PO-2026-000253,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000506,PO-2026-000253,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000507,PO-2026-000254,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000508,PO-2026-000254,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000509,PO-2026-000255,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000510,PO-2026-000255,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000511,PO-2026-000256,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000512,PO-2026-000256,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000513,PO-2026-000257,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000514,PO-2026-000257,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000515,PO-2026-000258,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000516,PO-2026-000258,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000517,PO-2026-000259,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000518,PO-2026-000259,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000519,PO-2026-000260,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000520,PO-2026-000260,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000521,PO-2026-000261,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000522,PO-2026-000261,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000523,PO-2026-000262,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000524,PO-2026-000262,GENERATED,VALIDATED,system,constraints validated,2026-01-01T00:00:00Z
+EVT-2026-000525,PO-2026-000263,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000526,PO-2026-000263,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000527,PO-2026-000264,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000528,PO-2026-000264,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000529,PO-2026-000265,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000530,PO-2026-000265,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000531,PO-2026-000266,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000532,PO-2026-000266,GENERATED,BLOCKED,system,no purchase action: BLOCKED,2026-01-01T00:00:00Z
+EVT-2026-000533,PO-2026-000267,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000534,PO-2026-000267,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000535,PO-2026-000268,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000536,PO-2026-000268,GENERATED,BLOCKED,system,no purchase action: BLOCKED,2026-01-01T00:00:00Z
+EVT-2026-000537,PO-2026-000269,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000538,PO-2026-000269,GENERATED,VALIDATED,system,constraints validated,2026-01-01T00:00:00Z
+EVT-2026-000539,PO-2026-000270,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000540,PO-2026-000270,GENERATED,BLOCKED,system,no purchase action: BLOCKED,2026-01-01T00:00:00Z
+EVT-2026-000541,PO-2026-000271,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000542,PO-2026-000271,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000543,PO-2026-000272,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000544,PO-2026-000272,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000545,PO-2026-000273,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000546,PO-2026-000273,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000547,PO-2026-000274,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000548,PO-2026-000274,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000549,PO-2026-000275,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000550,PO-2026-000275,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000551,PO-2026-000276,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000552,PO-2026-000276,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
+EVT-2026-000553,PO-2026-000277,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000554,PO-2026-000277,GENERATED,VALIDATED,system,constraints validated,2026-01-01T00:00:00Z
+EVT-2026-000555,PO-2026-000278,,GENERATED,system,recommendation computed from forecast + inventory + policy,2026-01-01T00:00:00Z
+EVT-2026-000556,PO-2026-000278,GENERATED,NO_ACTION,system,no purchase action: NO_ACTION,2026-01-01T00:00:00Z
